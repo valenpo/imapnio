@@ -2,8 +2,8 @@ package com.yahoo.imapnio.async.response;
 
 import java.util.Collection;
 
-import com.sun.mail.imap.protocol.IMAPResponse;
 import com.yahoo.imapnio.async.request.ImapCommandType;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
 
 /**
  * This class defines the Response for IMAP asynchronous requests.

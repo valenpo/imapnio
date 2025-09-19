@@ -3,9 +3,9 @@ package com.yahoo.imapnio.async.data;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import com.sun.mail.iap.ParsingException;
-import com.sun.mail.imap.protocol.IMAPResponse;
-import com.sun.mail.imap.protocol.MailboxInfo;
+import org.eclipse.angus.mail.iap.ParsingException;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.imap.protocol.MailboxInfo;
 
 /**
  * This class provides the mailbox information and extension items.

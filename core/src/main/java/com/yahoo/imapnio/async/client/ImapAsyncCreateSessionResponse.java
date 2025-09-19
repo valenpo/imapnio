@@ -3,7 +3,7 @@ package com.yahoo.imapnio.async.client;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import com.sun.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
 
 /**
  * This class is the response for the {@link ImapAsyncClient} createSession method response.

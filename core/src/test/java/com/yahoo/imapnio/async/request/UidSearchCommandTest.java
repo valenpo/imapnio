@@ -13,17 +13,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.mail.Flags;
-import javax.mail.search.FlagTerm;
-import javax.mail.search.SearchException;
-import javax.mail.search.SubjectTerm;
+import jakarta.mail.Flags;
+import jakarta.mail.search.FlagTerm;
+import jakarta.mail.search.SearchException;
+import jakarta.mail.search.SubjectTerm;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.sun.mail.iap.Argument;
-import com.sun.mail.iap.Literal;
+import org.eclipse.angus.mail.iap.Argument;
+import org.eclipse.angus.mail.iap.Literal;
 import com.yahoo.imapnio.async.data.Capability;
 import com.yahoo.imapnio.async.data.MessageNumberSet;
 import com.yahoo.imapnio.async.data.MessageNumberSet.LastMessage;

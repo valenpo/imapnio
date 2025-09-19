@@ -2,13 +2,12 @@ package com.yahoo.imapnio.client;
 
 import javax.annotation.Nonnull;
 
-import com.sun.mail.util.ASCIIUtility;
-
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.LineBasedFrameDecoder;
 import io.netty.util.ReferenceCountUtil;
+import org.eclipse.angus.mail.util.ASCIIUtility;
 
 /**
  * Basic response reader, read response from channel and decode based on line, also could handle IMAP literal response.

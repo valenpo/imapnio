@@ -2,13 +2,13 @@ package com.yahoo.imapnio.async.data;
 
 import java.io.IOException;
 
-import javax.mail.Flags.Flag;
+import jakarta.mail.Flags.Flag;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.sun.mail.iap.ProtocolException;
-import com.sun.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.iap.ProtocolException;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
 
 /**
  * Unit test for {@link ExtensionMailboxInfo}.

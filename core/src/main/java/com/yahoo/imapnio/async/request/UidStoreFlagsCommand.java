@@ -1,9 +1,9 @@
 package com.yahoo.imapnio.async.request;
 
 import javax.annotation.Nonnull;
-import javax.mail.Flags;
 
 import com.yahoo.imapnio.async.data.MessageNumberSet;
+import jakarta.mail.Flags;
 
 /**
  * This class defines IMAP UID store command request from client.

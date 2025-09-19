@@ -2,7 +2,7 @@ package com.yahoo.imapnio.async.request;
 
 import java.nio.charset.StandardCharsets;
 
-import javax.mail.Flags;
+import jakarta.mail.Flags;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

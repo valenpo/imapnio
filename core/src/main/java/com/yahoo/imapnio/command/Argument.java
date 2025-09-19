@@ -2,7 +2,7 @@ package com.yahoo.imapnio.command;
 
 import java.io.IOException;
 
-import com.sun.mail.iap.ProtocolException;
+import org.eclipse.angus.mail.iap.ProtocolException;
 
 /**
  * We extend Sun's IMAP Argument class for two reasons: 1. It doesn't have a reasonable constructor by default. 2. We want to make it easy to convert
@@ -12,7 +12,7 @@ import com.sun.mail.iap.ProtocolException;
  *
  * @author kraman
  */
-public class Argument extends com.sun.mail.iap.Argument {
+public class Argument extends org.eclipse.angus.mail.iap.Argument {
     /**
      * Creates a IMAP Argument object.
      */

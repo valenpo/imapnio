@@ -4,7 +4,7 @@ import java.nio.charset.StandardCharsets;
 
 import javax.annotation.Nonnull;
 
-import com.sun.mail.imap.protocol.BASE64MailboxEncoder;
+import org.eclipse.angus.mail.imap.protocol.BASE64MailboxEncoder;
 import com.yahoo.imapnio.async.data.MessageNumberSet;
 import com.yahoo.imapnio.async.data.QResyncParameter;
 import com.yahoo.imapnio.async.exception.ImapAsyncClientException;

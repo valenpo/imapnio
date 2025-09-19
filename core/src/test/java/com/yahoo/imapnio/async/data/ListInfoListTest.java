@@ -7,9 +7,9 @@ import java.util.List;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.sun.mail.iap.ProtocolException;
-import com.sun.mail.imap.protocol.IMAPResponse;
-import com.sun.mail.imap.protocol.ListInfo;
+import org.eclipse.angus.mail.iap.ProtocolException;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.imap.protocol.ListInfo;
 
 /**
  * Unit test for {@link ListInfoList}.

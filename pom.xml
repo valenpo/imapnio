@@ -67,7 +67,7 @@
         <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
         <excludedJNILibraries />
         <excludedWarJNILibraries />
-        <jdk.version>1.8</jdk.version>
+        <jdk.version>21</jdk.version>
         <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
         <maven-pmd-plugin.version>3.21.0</maven-pmd-plugin.version>
         <maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
@@ -110,9 +110,9 @@
                 <version>4.1.118.Final</version>
             </dependency>
             <dependency>
-                <groupId>com.sun.mail</groupId>
-                <artifactId>javax.mail</artifactId>
-                <version>1.5.5</version>
+                <groupId>org.eclipse.angus</groupId>
+                <artifactId>jakarta.mail</artifactId>
+                <version>2.0.4</version>
             </dependency>
             <dependency>
             <groupId>org.slf4j</groupId>

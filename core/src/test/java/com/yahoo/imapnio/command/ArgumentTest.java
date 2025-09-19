@@ -2,16 +2,16 @@ package com.yahoo.imapnio.command;
 
 import java.io.IOException;
 
-import javax.mail.Flags;
-import javax.mail.internet.MimeUtility;
-import javax.mail.search.FlagTerm;
-import javax.mail.search.SearchException;
-import javax.mail.search.SubjectTerm;
+import jakarta.mail.Flags;
+import jakarta.mail.internet.MimeUtility;
+import jakarta.mail.search.FlagTerm;
+import jakarta.mail.search.SearchException;
+import jakarta.mail.search.SubjectTerm;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.sun.mail.imap.protocol.SearchSequence;
+import org.eclipse.angus.mail.imap.protocol.SearchSequence;
 
 /**
  * Unit test for {@link Argument}.

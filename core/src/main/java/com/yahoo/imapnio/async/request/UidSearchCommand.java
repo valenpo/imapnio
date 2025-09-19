@@ -4,10 +4,11 @@ import java.io.IOException;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import javax.mail.search.SearchException;
-import javax.mail.search.SearchTerm;
 
-import com.sun.mail.iap.Argument;
+import jakarta.mail.search.SearchException;
+
+import jakarta.mail.search.SearchTerm;
+import org.eclipse.angus.mail.iap.Argument;
 import com.yahoo.imapnio.async.data.Capability;
 import com.yahoo.imapnio.async.data.MessageNumberSet;
 import com.yahoo.imapnio.async.exception.ImapAsyncClientException;

@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.annotation.Nonnull;
 
-import com.sun.mail.imap.protocol.ListInfo;
+import org.eclipse.angus.mail.imap.protocol.ListInfo;
 
 /**
  * This class provides the ListInfo information converted from LIST or LSUB command IMAPResponse.

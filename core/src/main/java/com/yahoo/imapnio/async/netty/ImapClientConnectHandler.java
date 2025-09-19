@@ -8,7 +8,7 @@ import javax.annotation.Nonnull;
 
 import org.slf4j.Logger;
 
-import com.sun.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
 import com.yahoo.imapnio.async.client.ImapAsyncCreateSessionResponse;
 import com.yahoo.imapnio.async.client.ImapAsyncSession.DebugMode;
 import com.yahoo.imapnio.async.client.ImapFuture;

@@ -1,6 +1,6 @@
 package com.yahoo.imapnio.async.netty;
 
-import com.sun.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
 
 import io.netty.handler.timeout.IdleStateEvent;
 

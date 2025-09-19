@@ -5,8 +5,8 @@ import io.netty.handler.codec.MessageToMessageDecoder;
 import java.io.IOException;
 import java.util.List;
 
-import com.sun.mail.iap.ProtocolException;
-import com.sun.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.iap.ProtocolException;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
 /**
  * @author kraman
  *

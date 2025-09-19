@@ -6,9 +6,9 @@ import java.util.Set;
 
 import javax.annotation.Nonnull;
 
-import com.sun.mail.iap.ParsingException;
-import com.sun.mail.imap.protocol.IMAPResponse;
-import com.sun.mail.imap.protocol.ListInfo;
+import org.eclipse.angus.mail.iap.ParsingException;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.imap.protocol.ListInfo;
 
 /**
  * This class provides the result from LIST-EXTENDED command. It extends from ListInfo so clients can continue use the data from ListInfo. The public

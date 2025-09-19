@@ -6,7 +6,7 @@ import java.util.Map;
 
 import javax.annotation.Nonnull;
 
-import com.sun.mail.imap.protocol.Status;
+import org.eclipse.angus.mail.imap.protocol.Status;
 
 /**
  * This class provides the result converted from LIST-STATUS responses. It contains a collection of ListInfo (similar to List command), also it has a

@@ -14,8 +14,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.sun.mail.iap.ProtocolException;
-import com.sun.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.iap.ProtocolException;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.timeout.IdleState;

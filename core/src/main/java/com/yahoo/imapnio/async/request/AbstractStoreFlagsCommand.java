@@ -3,7 +3,7 @@ package com.yahoo.imapnio.async.request;
 import java.nio.charset.StandardCharsets;
 
 import javax.annotation.Nonnull;
-import javax.mail.Flags;
+import jakarta.mail.Flags;
 
 import com.yahoo.imapnio.async.data.MessageNumberSet;
 

@@ -7,11 +7,11 @@ import java.util.Properties;
 
 import javax.annotation.Nonnull;
 
-import com.sun.mail.iap.Protocol;
-import com.sun.mail.iap.ProtocolException;
-import com.sun.mail.iap.Response;
-import com.sun.mail.imap.protocol.IMAPResponse;
-import com.sun.mail.util.MailLogger;
+import org.eclipse.angus.mail.iap.Protocol;
+import org.eclipse.angus.mail.iap.ProtocolException;
+import org.eclipse.angus.mail.iap.Response;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.util.MailLogger;
 
 import io.netty.buffer.ByteBuf;
 
@@ -60,7 +60,7 @@ final class ByteBufWriter extends Protocol {
     }
 
     /**
-     * Returns a continuation response in order to avoid {@link com.sun.mail.iap.Argument} blocking on literal method to wait for server continuation.
+     * Returns a continuation response in order to avoid {@link org.eclipse.angus.mail.iap.Argument} blocking on literal method to wait for server continuation.
      *
      * @return a continuation response
      * @throws IOException on network failure

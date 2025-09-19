@@ -6,11 +6,11 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import javax.mail.Flags;
+import jakarta.mail.Flags;
 
-import com.sun.mail.imap.protocol.BASE64MailboxEncoder;
-import com.sun.mail.imap.protocol.IMAPResponse;
-import com.sun.mail.imap.protocol.INTERNALDATE;
+import org.eclipse.angus.mail.imap.protocol.BASE64MailboxEncoder;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.imap.protocol.INTERNALDATE;
 import com.yahoo.imapnio.async.exception.ImapAsyncClientException;
 import com.yahoo.imapnio.async.exception.ImapAsyncClientException.FailureType;
 

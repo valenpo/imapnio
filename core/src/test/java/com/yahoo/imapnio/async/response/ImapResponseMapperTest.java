@@ -6,20 +6,20 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.mail.Flags.Flag;
-import javax.mail.Folder;
+import jakarta.mail.Flags.Flag;
+import jakarta.mail.Folder;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.sun.mail.iap.ProtocolException;
-import com.sun.mail.imap.AppendUID;
-import com.sun.mail.imap.CopyUID;
-import com.sun.mail.imap.protocol.ID;
-import com.sun.mail.imap.protocol.IMAPResponse;
-import com.sun.mail.imap.protocol.ListInfo;
-import com.sun.mail.imap.protocol.MailboxInfo;
-import com.sun.mail.imap.protocol.Status;
+import org.eclipse.angus.mail.iap.ProtocolException;
+import org.eclipse.angus.mail.imap.AppendUID;
+import org.eclipse.angus.mail.imap.CopyUID;
+import org.eclipse.angus.mail.imap.protocol.ID;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.imap.protocol.ListInfo;
+import org.eclipse.angus.mail.imap.protocol.MailboxInfo;
+import org.eclipse.angus.mail.imap.protocol.Status;
 import com.yahoo.imapnio.async.data.Capability;
 import com.yahoo.imapnio.async.data.EnableResult;
 import com.yahoo.imapnio.async.data.ExtensionListInfo;

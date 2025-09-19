@@ -2,7 +2,7 @@ package com.yahoo.imapnio.async.request;
 
 import javax.annotation.Nonnull;
 
-import com.sun.mail.imap.protocol.MessageSet;
+import org.eclipse.angus.mail.imap.protocol.MessageSet;
 import com.yahoo.imapnio.async.data.MessageNumberSet;
 
 /**

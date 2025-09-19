@@ -5,13 +5,9 @@ import java.nio.charset.StandardCharsets;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import javax.mail.internet.MimeUtility;
-import javax.mail.search.SearchException;
-import javax.mail.search.SearchTerm;
 
-import com.sun.mail.iap.Argument;
-import com.sun.mail.iap.ProtocolException;
-import com.sun.mail.imap.protocol.SearchSequence;
+import jakarta.mail.internet.MimeUtility;
+
 import com.yahoo.imapnio.async.data.Capability;
 import com.yahoo.imapnio.async.data.MessageNumberSet;
 import com.yahoo.imapnio.async.exception.ImapAsyncClientException;
@@ -19,6 +15,11 @@ import com.yahoo.imapnio.async.exception.ImapAsyncClientException.FailureType;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
+import jakarta.mail.search.SearchException;
+import jakarta.mail.search.SearchTerm;
+import org.eclipse.angus.mail.iap.Argument;
+import org.eclipse.angus.mail.iap.ProtocolException;
+import org.eclipse.angus.mail.imap.protocol.SearchSequence;
 
 /**
  * This class defines IMAP search command request from client.

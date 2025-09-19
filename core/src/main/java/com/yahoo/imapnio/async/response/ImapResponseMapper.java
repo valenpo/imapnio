@@ -11,17 +11,17 @@ import java.util.Set;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import javax.mail.Folder;
 
-import com.sun.mail.iap.ParsingException;
-import com.sun.mail.iap.Response;
-import com.sun.mail.imap.AppendUID;
-import com.sun.mail.imap.CopyUID;
-import com.sun.mail.imap.protocol.IMAPResponse;
-import com.sun.mail.imap.protocol.ListInfo;
-import com.sun.mail.imap.protocol.MailboxInfo;
-import com.sun.mail.imap.protocol.Status;
-import com.sun.mail.imap.protocol.UIDSet;
+import jakarta.mail.Folder;
+import org.eclipse.angus.mail.iap.ParsingException;
+import org.eclipse.angus.mail.iap.Response;
+import org.eclipse.angus.mail.imap.AppendUID;
+import org.eclipse.angus.mail.imap.CopyUID;
+import org.eclipse.angus.mail.imap.protocol.IMAPResponse;
+import org.eclipse.angus.mail.imap.protocol.ListInfo;
+import org.eclipse.angus.mail.imap.protocol.MailboxInfo;
+import org.eclipse.angus.mail.imap.protocol.Status;
+import org.eclipse.angus.mail.imap.protocol.UIDSet;
 import com.yahoo.imapnio.async.data.Capability;
 import com.yahoo.imapnio.async.data.EnableResult;
 import com.yahoo.imapnio.async.data.ExtensionListInfo;
